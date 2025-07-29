@@ -40,7 +40,7 @@ Ask questions about India, AI, science, or anything else. The app uses Wikipedia
 api_key = st.secrets["groq_api_key"]
 # Sidebar for API Key
 st.sidebar.title("Settings")
-api_key = st.sidebar.text_input("Enter your Groq API Key:", type="password")
+#api_key = st.sidebar.text_input("Enter your Groq API Key:", type="password")
 
 # Initialize session state
 if "messages" not in st.session_state:
