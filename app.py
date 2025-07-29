@@ -32,7 +32,7 @@ search = Tool(
 )
 
 # Streamlit UI
-st.title("🔎 LangChain - Chat with Search")
+st.title("🔎 Singareddy LangChain - Chat with Search ")
 
 """
 Ask questions about India, AI, science, or anything else. The app uses Wikipedia, Arxiv, and web search tools via LangChain.
