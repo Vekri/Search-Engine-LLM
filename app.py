@@ -37,7 +37,7 @@ st.title("🔎 LangChain - Chat with Search")
 """
 Ask questions about India, AI, science, or anything else. The app uses Wikipedia, Arxiv, and web search tools via LangChain.
 """
-st.secrets("password")
+api_key = st.secrets["groq_api_key"]
 # Sidebar for API Key
 st.sidebar.title("Settings")
 api_key = st.sidebar.text_input("Enter your Groq API Key:", type="password")
